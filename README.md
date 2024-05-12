@@ -45,8 +45,8 @@
 
 ### Ответ
 
-Самое популярное решение для данных целей - ELK стек (Elasticsearch Logstash Kibana). Если бы не требовалось собирать логи из stdout, то можно было бы заменить Logstash на Filebeat.
-Как альтернативное решение, можно использовать Clickhouse Vector Lightouse.
+Самое популярное решение для данных целей - EL(F)K стек (Elasticsearch, Logstash или Filebeat, Kibana).
+Как альтернативное решение, можно использовать Clickhouse, Vector, Lightouse.
 
 ## Задача 3: Мониторинг
 
@@ -64,4 +64,4 @@
 ### Ответ
 
 Для решения данной задачи можно использовать Zabbix с активными агентам.
-В качестве альтернативы очень популярен стек NodeExporter Prometeus Grafana.
+В качестве альтернативы очень популярен стек NodeExporter, Prometeus, Grafana.
